@@ -95,7 +95,7 @@ select *
 from Grade G
 	join Author A on  G.Id = A.GradeId
 	join Poem P on A.Id = P.AuthorId
-
+	-- need to create subquery here
 
 
 
